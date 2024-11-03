@@ -1,0 +1,7 @@
+@use 'config/variables';
+
+.container {
+    max-width: variables.$container-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
